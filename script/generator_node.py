@@ -61,7 +61,7 @@ class PopUpROS:
 
 
 if __name__=="__main__":
-    rospy.init_node("node_pub", anonymous=True)
+    rospy.init_node("generator_node", anonymous=True)
 
     # setup the current path 
     current_path_file = os.path.dirname(os.path.realpath(__file__))
