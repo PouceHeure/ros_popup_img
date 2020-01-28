@@ -1,0 +1,82 @@
+{
+    "global_settings": {
+        "font_size":{
+            "title" : 3,
+            "subtitle" : 1 
+        },
+        "image_size":{
+            "width" : 200,
+            "height" : 200,
+            "margin" : 10
+        },
+        "popup_size":{
+            "width": 500,
+            "height": 500
+        }
+
+    },
+
+    "level_settings": {
+        
+        "success" : {
+            "icon": "success.png", 
+            "colors": {
+                "background":[38, 186, 38],
+                "label_title":[255,255,255],
+                "label_subtitle":[255,255,255] 
+            },
+            "bpm": {
+                "min" : 150,
+                "max" : 255,
+                "freq" : 30,
+                "step": 2
+
+            }
+        },
+
+        "info" : {
+            "icon": "info.png",
+            "colors": {
+                "background":[38, 38, 186],
+                "label_title":[255,255,255],
+                "label_subtitle":[255,255,255] 
+            },
+            "bpm": {
+                "min" : 150,
+                "max" : 255,
+                "freq" : 20,
+                "step": 5
+            }
+        },
+
+        "warning" : {
+            "icon": "warning.png",
+            "colors": {
+                "background":[186, 186, 0],
+                "label_title":[255,255,255],
+                "label_subtitle":[255,255,255] 
+            },
+            "bpm": {
+                "min" : 200,
+                "max" : 255,
+                "freq" : 5,
+                "step": 15
+            }
+        },
+
+        "fail" : {
+            "icon": "fail.png",
+            "colors": {
+                "background":[186, 0, 0],
+                "label_title":[255,255,255],
+                "label_subtitle":[255,255,255] 
+            },
+            "bpm": {
+                "min" : 200,
+                "max" : 255,
+                "freq" : 1,
+                "step": 15
+            }
+        }
+    }
+}
