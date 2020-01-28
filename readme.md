@@ -2,7 +2,7 @@
 
 This package creates an image with a title and a subtitle. The popup level changes the background color. 
 
-Once the image is generated a bridge allows publishes the image. So the image can be exploited, for example, it's possible to add an image viewer inside a rqt_gui. 
+Once the image is generated, a bridge publishes it. So the image can be exploited, for example, it's possible to add an image viewer inside a rqt_gui. 
 
 # Setup: (TODO)
 
